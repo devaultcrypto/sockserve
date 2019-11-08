@@ -1,18 +1,18 @@
 ## What is Sockserve?
 
-Sockserve is a frontend API for Bitd that provides a streaming output of new transactions. Unlike [Bitserve](https://github.com/fountainhead-cash/bitserve) which is a similar frontend API used to fetch historical blockchain data, Sockserve can be used display data as it comes in.
+Sockserve is a frontend API for Bitd that provides a streaming output of new transactions. Unlike [Bitserve](https://github.com/devaultcrypto/bitserve) which is a similar frontend API used to fetch historical blockchain data, Sockserve can be used display data as it comes in.
 
 ## Installation
 
 ### Prerequisite
 
-For Sockserve to work you first need to go through the install process for [bitd](https://github.com/fountainhead-cash/bitd), which will continually scan the blockchain for new transactions and blocks which will be streamed live over the Bitsocket (sockserve) API.
+For Sockserve to work you first need to go through the install process for [bitd](https://github.com/devaultcrypto/bitd), which will continually scan the blockchain for new transactions and blocks which will be streamed live over the Bitsocket (sockserve) API.
 
 ### Setting up Sockserve
 
 Clone this repository:
 ```
-git clone https://github.com/fountainhead-cash/sockserve.git && cd sockserve
+git clone https://github.com/devaultcrypto/sockserve.git && cd sockserve
 ```
 
 Install dependencies:
