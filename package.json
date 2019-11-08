@@ -1,5 +1,5 @@
 {
-  "name": "fountainhead-sockserve",
+  "name": "sockserve-dvt",
   "version": "0.0.4",
   "description": "bitsocket frontend",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "dotenv": "^6.0.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "fountainhead-core": "0.0.2",
+    "dvt-bitdb-core": "0.0.12",
     "ip": "^1.1.5"
   }
 }

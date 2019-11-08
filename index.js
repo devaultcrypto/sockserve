@@ -3,7 +3,7 @@ const express = require('express')
 const ip = require('ip')
 const app = express()
 const cors = require("cors")
-const bitsocketd = require('fountainhead-core').bitsocketd
+const bitsocketd = require('dvt-bitdb-core').bitsocketd
 
 const config = {
   "query": {
